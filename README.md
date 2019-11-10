@@ -9,3 +9,8 @@ second run the angular project by executing:
 on /test
 
 the angular app is configured to run on port 4200
+the pages URLs are as follow:
+
+Home: /
+Products: /products
+Popup: /popup
