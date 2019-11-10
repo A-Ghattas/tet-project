@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="header">
+    <div class="topBar">
+      <a class="navbar-toggle pointer float-left">
+        <fa-icon [icon]="faBars"></fa-icon>
+      </a>
+      <a class="navbar-search pointer float-right">
+        <fa-icon [icon]="faSearch"></fa-icon>
+      </a>
+    </div>
+    <div class="titleBar">
+  <span class="title float-left margin-10">
+    Home - H2
+  </span>
+      <div class="sort-menu float-right">
+        <span class="margin-10">Sort by </span> :
+        <a class="margin-10 pointer">Price</a> |
+        <a class="margin-10 pointer">Rating</a> |
+        <a class="margin-10 pointer">Brand</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="filterBar">
+      <span class="category float-left">Home Decor</span>
+      <a class="filter-button float-right">Filter By</a>
+    </div>
+
+    <div class="list">
+      <app-product-list></app-product-list>
+    </div>
+
+    <div class="pagination">
+      <a class="previous">Previous</a>
+      <a class="page">3/8</a>
+      <a class="next">Next</a>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,63 @@
+.container{
+  margin:60px auto;
+  width: 80%;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+}
+
+.news-left{
+  grid-row: 1;
+  grid-column: 1;
+  display: grid;
+  margin: 10px;
+}
+
+.news-right{
+  grid-row: 2;
+  grid-column: 1;
+  margin: 10px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 28px
+}
+
+.text{
+  font-size: 14px;
+  width: 70%;
+}
+
+.name{
+  width: 70%;
+  margin: 10px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.email{
+  width: 70%;
+  margin: 10px;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.button{
+  width: 20%;
+  padding: 5px 10px;
+  background: black;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .news-left{
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .news-right{
+    grid-row: 1;
+    grid-column: 2;
+  }
+}

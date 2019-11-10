@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <span class="navbar-toggle" id="js-navbar-toggle" (click)="toggleMenu($event)">
+            <fa-icon [icon]="faBars"></fa-icon>
+        </span>
+  <ul class="main-nav" [ngClass]="active ? 'active' : ''">
+    <li>
+      <a href="#" class="nav-links"><fa-icon [icon]="faSearch"></fa-icon></a>
+    </li>
+    <li class="logo">
+      <a href="#" class="nav-links">Minim</a>
+    </li>
+    <li>
+      <a href="#" class="nav-links">Account</a>
+    </li>
+    <li>
+      <a href="#" class="nav-links"><fa-icon [icon]="faBell"></fa-icon><span class="badge">9</span></a>
+    </li>
+  </ul>
+</nav>

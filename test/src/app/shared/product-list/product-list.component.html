@@ -1,0 +1,13 @@
+<div>
+  <input placeholder="Search" [value]="searchString" (keyup)="updateProducts($event)"/>
+</div>
+<div class="products-container">
+  <div *ngFor="let product of products">
+    <div class="product-container">
+      <div class="image"></div>
+      <span class="name">{{product.name}}</span>
+      <span class="designer">{{product.designer}}</span>
+      <span class="price">{{product.price}} $</span>
+    </div>
+  </div>
+</div>
