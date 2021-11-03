@@ -34,7 +34,7 @@
     "mongoose": "^5.3.13",
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.9.1",
-    "validator": "^10.9.0"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
